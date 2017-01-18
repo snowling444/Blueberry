@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+html{
+  background-color: #fafafa;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.app-wrap{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100vh;
+}
+.home{
+  flex-grow: 1;
+  background-image: url('../images/home-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+}

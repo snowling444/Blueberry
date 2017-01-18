@@ -51,7 +51,12 @@
     "webpack-hot-middleware": "^2.9.1"
   },
   "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
   }
 }
